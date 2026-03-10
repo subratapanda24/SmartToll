@@ -1,0 +1,11 @@
+.DS_Store
+*.exe
+*.out
+*.o
+*.obj
+a.out
+smart_toll
+transactions.txt
+receipt_*.txt
+*.log
+*.tmp
