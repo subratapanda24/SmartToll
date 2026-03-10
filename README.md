@@ -8,7 +8,7 @@ This project demonstrates the use of **Object-Oriented Programming (OOP)** and *
 
 ---
 
-## 📌 Features
+## Features
 
 -  **Vehicle Registration** – Store vehicle details such as plate number, owner name, and vehicle type.
 - **Multiple Toll Booths** – Simulates different toll booths with unique IDs and locations.
@@ -20,7 +20,7 @@ This project demonstrates the use of **Object-Oriented Programming (OOP)** and *
 
 ---
 
-## 🧠 Concepts Used
+## Concepts Used
 
 This project demonstrates several **C++ programming concepts**:
 
@@ -34,7 +34,7 @@ This project demonstrates several **C++ programming concepts**:
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 The system is built using three main classes.
 
@@ -61,7 +61,7 @@ Controls the main operations of the system:
 
 ---
 
-## 🚦 Toll Rates
+##  Toll Rates
 
 | Vehicle Type | Toll Fee |
 |--------------|----------|
@@ -107,7 +107,7 @@ g++ smart_toll.cpp -o smart_toll
 
 ---
 
-## 📷 Example Menu
+##  Example Menu
 
 ```
 SMART TOLL COLLECTION SYSTEM
@@ -123,7 +123,7 @@ SMART TOLL COLLECTION SYSTEM
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 Through this project the following concepts were applied:
 
@@ -135,7 +135,7 @@ Through this project the following concepts were applied:
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Possible enhancements include:
 
@@ -147,7 +147,7 @@ Possible enhancements include:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Subrata Panda**  
 B.Tech Computer Science  
