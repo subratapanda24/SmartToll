@@ -10,13 +10,13 @@ This project demonstrates the use of **Object-Oriented Programming (OOP)** and *
 
 ## 📌 Features
 
-- 🚘 **Vehicle Registration** – Store vehicle details such as plate number, owner name, and vehicle type.
-- 🛣 **Multiple Toll Booths** – Simulates different toll booths with unique IDs and locations.
-- 💰 **Automatic Toll Calculation** – Calculates toll charges based on vehicle category.
-- 🧾 **Receipt Generation** – Generates a receipt for each toll transaction.
-- 📂 **Transaction Logging** – Stores toll transaction history in a file.
-- 📊 **Booth Statistics** – Displays number of vehicles processed and total revenue collected.
-- 📋 **Menu Driven Interface** – Simple console interface for easy navigation.
+-  **Vehicle Registration** – Store vehicle details such as plate number, owner name, and vehicle type.
+- **Multiple Toll Booths** – Simulates different toll booths with unique IDs and locations.
+-  **Automatic Toll Calculation** – Calculates toll charges based on vehicle category.
+-  **Receipt Generation** – Generates a receipt for each toll transaction.
+-  **Transaction Logging** – Stores toll transaction history in a file.
+-  **Booth Statistics** – Displays number of vehicles processed and total revenue collected.
+-  **Menu Driven Interface** – Simple console interface for easy          navigation.
 
 ---
 
