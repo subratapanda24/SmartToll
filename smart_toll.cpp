@@ -94,13 +94,11 @@ private:
     }
 }
 
-
-
     void generateReceipt(Vehicle &v,double baseToll,double finalToll){
 
         double discount=v.getFasTag()?baseToll*0.10:0.0;
 
-        string filename="receipt_"+v.getPlate()+".txt";
+        string filename="receipt_"+v.getPlate()+"_"+getCurrentTimestamp()+".txt";
 
         ofstream file(filename);
 
@@ -264,7 +262,9 @@ public:
 
         while(getline(file,line)){
             cout<<"  "<<line<<"\n";
-            count++;
+
+            if(line=="-----------------------------")
+                count++;
         }
 
         file.close();
@@ -316,7 +316,13 @@ int main(){
         cout<<"  ----------------\n";
 
         cout<<"  Enter choice (1-6): ";
-        cin>>choice;
+
+        if(!(cin>>choice)){
+            cin.clear();
+            cin.ignore(1000,'\n');
+            cout<<"  Invalid input. Enter number 1-6.\n";
+            continue;
+        }
 
         switch(choice){
 

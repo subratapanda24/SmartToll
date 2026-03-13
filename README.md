@@ -123,13 +123,13 @@ bin/
 ### Compile the program
 
 ```bash
-g++ smart_toll.cpp -o tollsystem
+g++ smart_toll.cpp -o smart_toll
 ```
 
 ### Run the program
 
 ```bash
-./tollsystem
+./smart_toll
 ```
 
 ---
@@ -142,10 +142,9 @@ SMART TOLL COLLECTION SYSTEM
 1. Register Vehicle
 2. Process Toll
 3. Search Vehicle
-4. Booth Statistics
-5. Transaction Log
-6. All Registered Vehicles
-7. Exit
+4. Transaction Log
+5. All Registered Vehicles
+6. Exit
 ```
 
 ---
